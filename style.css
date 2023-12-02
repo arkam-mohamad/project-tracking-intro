@@ -1,1 +1,105 @@
-
+*{
+  margin: 0;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+body{
+  overflow-x: hidden;
+}
+nav{
+  margin: 75px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+.links{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: hsl(230, 29%, 20%);
+}
+.round{
+  width: 10px;
+  height: 10px;
+  background-color: hsl(231, 7%, 65%);
+  border-radius: 10px;
+}
+.login{
+  color: hsl(231, 7%, 65%);
+}
+main{
+  padding: 50px 100px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 400px;
+  width: 400px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.new{
+  background-color: hsl(230, 29%, 20%);
+  color: white;
+  text-transform: uppercase;
+  padding: 2px 10px;
+  border-radius: 25px;
+  font-size: 16px;
+}
+.dashboard{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: hsl(231, 7%, 65%);
+  font-size: 15px;
+}
+h1{
+  color: hsl(230, 29%, 20%);
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.container > p{
+  color: hsl(230, 11%, 40%);
+  font-size: 18px;
+  width: 75%;
+}
+.footer{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+button{
+  background-color: hsl(0, 100%, 68%);
+  color: white;
+  text-transform: uppercase;
+  border: 0;
+  padding: 5px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.bg{
+  width: 800px;
+  height: 400px;
+  border-radius: 0 0 0 50px;
+  background-color: hsl(207, 33%, 95%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.float{
+  position: absolute;
+  top: 150px;
+  right: -200px;
+}
